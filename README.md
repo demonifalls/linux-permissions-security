@@ -1,6 +1,6 @@
 # Linux Permissions Security Project
 
-Linux file permissions and ownership project demonstrating access control and the principle of least # Linux Permissions Security Project
+Linux file permissions and ownership project demonstrating access control and the principle of least privilege.
 
 ## Project Overview
 

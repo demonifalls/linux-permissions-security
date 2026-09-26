@@ -1,4 +1,5 @@
 # linux-permissions-security
+
 Linux file permissions and ownership project demonstrating access control and the principle of least # Linux Permissions Security Project
 
 ## Project Overview
@@ -29,6 +30,10 @@ These permissions provided more access than necessary. I changed the group from 
 ```bash
 chown analyst:security customer_data.txt
 chmod 640 customer_data.txt
+```
+After remediation, the permissions were:
+
+`-rw-r----- 1 analyst security 2048 customer_data.txt`
 
 ### 2. Excessive Script Permissions
 
